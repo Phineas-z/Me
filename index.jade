@@ -21,12 +21,75 @@ html
             .row
                 .col-lg-3
                 .col-lg-2
-                    a.social &#62208;
+                    a.social(href='https://github.com/Phineas-z') &#62208;
                 .col-lg-2
-                    a.social &#62232;
+                    a.social(href='https://www.linkedin.com/profile/view?id=201403294&trk=nav_responsive_tab_profile_pic') &#62232;
                 .col-lg-2
-                    a.social &#62220;
+                    a.social(href='https://www.facebook.com/yuanshuo.lu') &#62220;
                 .col-lg-3
+        .skills.container-fluid
+            .row
+                .col-lg-2
+                .col-lg-8
+                    p
+                        span.lead.text-uppercase focus on
+                        img.ios(src='./images/ios.png')
+                        img.node(src='./images/node.png')
+                        img.opencv(src='./images/opencv.png')
+                .col-lg-2
+            .row
+                .col-lg-4
+                .col-lg-5
+                    a.resume.pull-right(href='./resources/resume.pdf') Resume
+                .col-lg-3
+        .projects.container-fluid
+            .row
+                .col-lg-2
+                .col-lg-8
+                    p
+                        span.lead.text-uppercase projects
+                .col-lg-2
+            .row
+                .col-lg-2
+                .col-lg-8
+                    ul
+                        li
+                            a(href='https://github.com/Phineas-z/PHHeatMapView')
+                                h3 PHHeatMapView
+                            p iOS heat map view used to show heat distribution (keystroke frequecy, population distribution, etc.)
+                        li
+                            a(href='https://github.com/Phineas-z/HorizontalTableView')
+                                h3 HorizontalTableView
+                            p iOS UIView which works like UITableView but scroll horizontally
+                        li
+                            a(href='https://github.com/Phineas-z/PHFlipView')
+                                h3 PHFlipView
+                            p iOS UIView container which mimics Flipboard page flip animation
+                .col-lg-2
+        .ideas.container-fluid
+            .row
+                .col-lg-2
+                .col-lg-8
+                    p
+                        span.lead.text-uppercase idea
+                .col-lg-2
+            .row
+                .col-lg-2
+                .col-lg-8
+                    blockquote
+                        p An app which rewards user with bitcoin according to the running steps per day. One bit per step. 
+                .col-lg-2
+            .row
+                .col-lg-9
+                .col-lg-3
+                    a(href='mailto:yuanshuo@buffalo.edu') thought interesting? contact me
+        .dummy.container-fluid
+        .tail
+            video(preload='auto', autoplay, loop)
+                source(src='./resources/ocean.webm', type='video/webm')
+                source(src='./resources/ocean.mp4', type='video/mp4')
+            .video-overlay
+            p Phineas @2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hey Ferb, I know what we're gonna do today.
         // bootsrap
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
         script(src='./bs/js/bootstrap.min.js')
