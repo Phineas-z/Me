@@ -6,15 +6,15 @@ html
         title Yuanshuo Lu
 
         // bootstrap
-        link(href='./bs/css/bootstrap.min.css', rel='stylesheet')
-        link(href='./me.css', rel='stylesheet')
+        link(href='/bs/css/bootstrap.min.css', rel='stylesheet')
+        link(href='/me.css', rel='stylesheet')
     body
         .contact.container-fluid
             .row
                 .col-lg-12
                     #avatar
                         .overlay
-                        img(src='./images/me.jpeg')
+                        img(src='/images/me.jpeg')
             .row
                 .col-lg-12
                     h1 Yuanshuo Lu
@@ -33,14 +33,14 @@ html
                 .col-lg-8
                     p
                         span.lead.text-uppercase focus on
-                        img.ios(src='./images/ios.png')
-                        img.node(src='./images/node.png')
-                        img.opencv(src='./images/opencv.png')
+                        img.ios(src='/images/ios.png')
+                        img.node(src='/images/node.png')
+                        img.opencv(src='/images/opencv.png')
                 .col-lg-2
             .row
                 .col-lg-4
                 .col-lg-5
-                    a.resume.pull-right(href='./resources/resume.pdf') Resume
+                    a.resume.pull-right(href='/resources/resume.pdf') Resume
                 .col-lg-3
         .projects.container-fluid
             .row
@@ -86,10 +86,10 @@ html
         .dummy.container-fluid
         .tail
             video(preload='auto', autoplay, loop)
-                source(src='./resources/ocean.webm', type='video/webm')
-                source(src='./resources/ocean.mp4', type='video/mp4')
+                source(src='/resources/ocean.webm', type='video/webm')
+                source(src='/resources/ocean.mp4', type='video/mp4')
             .video-overlay
             p Phineas @2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hey Ferb, I know what we're gonna do today.
         // bootsrap
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
-        script(src='./bs/js/bootstrap.min.js')
+        script(src='/bs/js/bootstrap.min.js')
